@@ -28,8 +28,8 @@ public final class AppCoordinator: Navigating {
     }
     
     func start() {
-        let introductionPageViewController = IntroductionPageViewController()
-        navigationController?.setViewControllers([introductionPageViewController], animated: false)
+        let introductionViewController = IntroductionViewController()
+        navigationController?.setViewControllers([introductionViewController], animated: false)
     }
     
 }
