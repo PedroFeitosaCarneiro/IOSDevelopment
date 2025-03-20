@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3ADD850A2D8C927F00A34AA6 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 3ADD85092D8C927F00A34AA6 /* Networking */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3AB111432D884EEA00AEEFBA /* IOSDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADD850A2D8C927F00A34AA6 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = IOSDevelopment;
 			packageProductDependencies = (
+				3ADD85092D8C927F00A34AA6 /* Networking */,
 			);
 			productName = IOSDevelopment;
 			productReference = 3AB111432D884EEA00AEEFBA /* IOSDevelopment.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = 3AB1113A2D884EEA00AEEFBA;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3ADD85082D8C927F00A34AA6 /* XCLocalSwiftPackageReference "../Networking" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3AB111442D884EEA00AEEFBA /* Products */;
 			projectDirPath = "";
@@ -331,6 +340,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		3ADD85082D8C927F00A34AA6 /* XCLocalSwiftPackageReference "../Networking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../Networking;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3ADD85092D8C927F00A34AA6 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3AB1113B2D884EEA00AEEFBA /* Project object */;
 }
