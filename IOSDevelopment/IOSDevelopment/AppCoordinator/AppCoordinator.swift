@@ -28,8 +28,8 @@ public final class AppCoordinator: Navigating {
     }
     
     func start() {
-        let topMenuViewController = TopMenuViewController()
-        navigationController?.setViewControllers([topMenuViewController], animated: false)
+        let introductionPageViewController = IntroductionPageViewController()
+        navigationController?.setViewControllers([introductionPageViewController], animated: false)
     }
     
 }
